@@ -1,0 +1,61 @@
+/* Container Box */
+.pebble-widget-container {
+    spacing: 20px;
+}
+
+/* Card Base */
+.pebble-card {
+    border-radius: 28px;
+    padding: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+/* Light Theme */
+.pebble-card.light {
+    background-color: #F7F5F0;
+    color: #1C1C1E;
+}
+
+/* Dark Theme */
+.pebble-card.dark {
+    background-color: #1C1C1E;
+    color: #F2F2F7;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* Calendar Card Left Side (Next Event Dark Pill) */
+.cal-event-box {
+    background-color: #1C1C1E;
+    border-radius: 20px;
+    padding: 16px;
+    min-width: 170px;
+    min-height: 160px;
+}
+.cal-event-title-light {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+}
+.cal-event-sub {
+    color: #8E8E93;
+    font-size: 11px;
+}
+.cal-event-time {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Calendar Grid */
+.cal-grid-cell {
+    font-size: 12px;
+    min-width: 24px;
+    min-height: 24px;
+    text-align: center;
+}
+.cal-day-active {
+    background-color: #FF3B30;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-weight: bold;
+}

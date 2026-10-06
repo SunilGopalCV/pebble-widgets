@@ -1,0 +1,8 @@
+{
+  "name": "Pebble Widgets",
+  "description": "Elegant, customizable desktop widgets featuring a synced calendar agenda, now-playing media card with album artwork, and auto-locating live weather.",
+  "uuid": "pebble-widgets@sunil",
+  "shell-version": ["45", "46", "47", "48", "50"],
+  "settings-schema": "org.gnome.shell.extensions.pebblewidgets",
+  "url": "https://github.com/SunilGopalCV/pebble-widgets"
+}

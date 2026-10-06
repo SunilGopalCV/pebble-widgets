@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pebblewidgets" path="/org/gnome/shell/extensions/pebblewidgets/">
+    <key name="show-calendar" type="b"><default>true</default></key>
+    <key name="show-media" type="b"><default>true</default></key>
+    <key name="show-weather" type="b"><default>true</default></key>
+    <key name="pos-x" type="i"><default>50</default></key>
+    <key name="pos-y" type="i"><default>50</default></key>
+    <key name="opacity" type="i"><default>100</default></key>
+    <key name="dark-mode" type="b"><default>false</default></key>
+    <key name="widget-scale" type="i"><default>100</default></key>
+  </schema>
+</schemalist>
